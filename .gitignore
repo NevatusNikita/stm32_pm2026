@@ -1,0 +1,30 @@
+# CMake: каталоги сборки
+build/
+cmake-build-*/
+out/
+
+# CMake: сгенерированные файлы (если сборка идёт в сорсах)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Артефакты сборки (ELF / BIN / HEX / карты / объектники)
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.sym
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*~
