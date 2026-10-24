@@ -51,6 +51,8 @@ set(SOURCE_FILES
     stm32/startup/startup_stm32f10x_md.c # Choose startup file for your MCU
     stm32/system_stm32f10x.c
     syscalls/syscalls.c
+    spi.c
+    display.c
     main.c)
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
